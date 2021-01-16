@@ -2,24 +2,18 @@
 #include <string.h>
 
 #define _Subscribe2Button
-#define _Subscribe2Color
-#define _Subscribe2Acc
-
-//#define _Subscribe2Other
 
 #include <EventFactory.h>
 #include <EventFactory.CPP>
 
 #include <GnGBasicRobot.h>
-//#include "GnGBasicRobot.CPP"
 
 #include <GnG_BLE_HWSPI.h>
 
 
-
 GnG_BLE_HWSPI blueToothFeather;
 
-GnGBasicRobot blueRobot;//(12, 11, 10, 9, 6, 50 );
+GnGBasicRobot blueRobot;
 
 void setup() {
 
