@@ -25,11 +25,11 @@ void GnGbuttonCallBack(GnGButtonEvent* buttonEventptr)
       }
       break;
     case 7: {
-        blueRobot.processRightTurn(buttonEventptr-> buttonPressed);
+        blueRobot.processLeftTurn(buttonEventptr-> buttonPressed);
       }
       break;
     case 8: {
-        blueRobot.processLeftTurn(buttonEventptr-> buttonPressed);
+        blueRobot.processRightTurn(buttonEventptr-> buttonPressed);
 
       }
       break;

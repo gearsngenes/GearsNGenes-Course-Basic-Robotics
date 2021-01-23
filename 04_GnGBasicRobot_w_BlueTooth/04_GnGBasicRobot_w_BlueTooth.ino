@@ -7,6 +7,7 @@
 #include <EventFactory.CPP>
 
 #include <GnGBasicRobot.h>
+//#include <GnGBasicRobot.CPP>
 
 #include <GnG_BLE_HWSPI.h>
 
